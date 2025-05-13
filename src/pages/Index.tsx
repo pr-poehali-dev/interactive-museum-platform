@@ -10,9 +10,8 @@ import CallToAction from '@/components/home/CallToAction';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-white to-primary-50/30">
       <Header />
-      
       <main className="flex-grow">
         <Hero />
         <Categories />
@@ -20,7 +19,6 @@ const Index = () => {
         <Features />
         <CallToAction />
       </main>
-      
       <Footer />
     </div>
   );
